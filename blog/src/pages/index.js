@@ -9,11 +9,11 @@ const IndexPage = ({ data }) => (
   <Layout>
     <ul className={styles.list}>
         {
-            data.allContentfulBlogPost.edges.map(edge => {
+            data.allContentfulBlogPost.edges.map(edge => (
                 <li key={edge.node.id}>
                     <Link to={edge.node.slug}>{edge.node.title}</Link>
                 </li>
-            })
+            ))
         }
     </ul>   
   </Layout>
