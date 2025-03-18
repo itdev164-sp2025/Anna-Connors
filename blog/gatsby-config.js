@@ -6,6 +6,10 @@ require('dotenv').config({
  * @type {import('gatsby').GatsbyConfig}
  */
 
+
+console.log("SPACE_ID:", process.env.CONTENTFUL_SPACE_ID),
+console.log("ACCESS_TOKEN:", process.env.CONTENTFUL_ACCESS_TOKEN),
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Blog`,
