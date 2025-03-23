@@ -6,9 +6,13 @@ require('dotenv').config({
  * @type {import('gatsby').GatsbyConfig}
  */
 
+
+//console.log("SPACE_ID:", process.env.SPACE_ID);
+//console.log("ACCESS_TOKEN:", process.env.ACCESS_TOKEN);
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Blog`,
+    title: `A Blog of Many Things`,
     description: ``,
     author: `Anna Connors`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
