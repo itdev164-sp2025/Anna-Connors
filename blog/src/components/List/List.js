@@ -1,4 +1,4 @@
-import React, { Children } from "react";
+import React from "react";
 import { BaseContainer } from '../BaseContainer';
 import PropTypes from 'prop-types';
 
